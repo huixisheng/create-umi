@@ -15,10 +15,12 @@ $ yarn create templates [appName]
 ## Usage Example
 
 ```bash
-$ yarn create umi
+$ yarn create templates
 
 ? Select the boilerplate type (Use arrow keys)
-❯ app             - Create a documentation project with VuePress.
+❯ node-typescript-simple - Create a node npm package with Typescript.
+  vuepress        - Create a documentation project with VuePress.
+```
 
 ## LICENSE
 

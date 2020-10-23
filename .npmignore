@@ -9,6 +9,8 @@ TODOs.md
 .vscode
 package-lock.json
 tmp
+/node_modules
+tests
 
 # CI related
 scripts

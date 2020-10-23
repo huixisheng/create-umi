@@ -1,6 +1,6 @@
 {
   "name": "create-templates",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Creates an awesome templates application using the command line.",
   "homepage": "https://github.com/huixisheng/create-umi",
   "bugs": {
@@ -20,7 +20,6 @@
     "create-templates": "cli.js"
   },
   "scripts": {
-    "prepublishOnly": "np --no-cleanup --yolo --no-publish",
     "test": "umi-test test/index.test.js",
     "cov": "umi-test test/index.test.js --coverage",
     "prettier": "prettier -c --write '**/*'"
@@ -50,7 +49,7 @@
     "umi-test": "^1.9.3"
   },
   "authors": [
-    "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)",
-    "huixisheng <huixisheng@gmail.com> (https://github.com/huixisheng)"
+    "huixisheng <huixisheng@gmail.com> (https://github.com/huixisheng)",
+    "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)"
   ]
 }

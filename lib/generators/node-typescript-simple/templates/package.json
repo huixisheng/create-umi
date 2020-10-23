@@ -1,9 +1,9 @@
 {
-  "name": "name",
-  "author": "{{author}} {{mail}} (link)",
+  "name": "<%= name %>",
+  "description": "<%= description %>",
+  "author": "<%= author%> <%= mail %> (link)",
   "version": "0.0.1",
   "keywords": [],
-  "description": "{{description}}",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc --build tsconfig.json",
@@ -21,7 +21,7 @@
   },
   "homepage": "",
   "bugs": "",
-  "repository": "git@code.aliyun.com:mingren_byai/pmp.git",
+  "repository": "",
   "contributors": [],
   "os": [
     "darwin",
@@ -33,7 +33,6 @@
     "@types/node": "^13.9.2",
     "jest": "^25.1.0",
     "ts-jest": "^25.2.1",
-    "ts-node": "^8.7.0",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.8.3"
   },

@@ -1,0 +1,8 @@
+## TODOS
+
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "./node_modules/@types/"
+    ],
