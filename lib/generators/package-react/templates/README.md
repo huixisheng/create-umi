@@ -13,7 +13,7 @@ nav:
 #   order: 1
 ---
 
-# <%= packageName %> 组件
+# <%= name %> 组件
 > <%= description %>
 
 ## 何时使用

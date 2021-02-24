@@ -1,12 +1,12 @@
 import React from 'react';
 import { render, cleanup, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import <%= packageName %> from '../index';
+import <%= name %> from '../index';
 
 afterEach(cleanup);
 
-test('<%= packageName %> render', () => {
-  const { asFragment, getByText, container } = render(<<%= packageName %> />);
+test('<%= name %> render', () => {
+  const { asFragment, getByText, container } = render(<<%= name %> />);
   expect(asFragment()).toMatchSnapshot();
   expect(getByText('Click me')).toBeInTheDocument();
 

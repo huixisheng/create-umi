@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button } from 'antd';
 
 
-function <%= packageName %> () {
+function <%= name %> () {
   const [count, setCount] = useState(0);
 
   return (
@@ -14,5 +14,5 @@ function <%= packageName %> () {
 }
 
 export default () => {
-  return <<%= packageName %> />;
+  return <<%= name %> />;
 }

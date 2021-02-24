@@ -1,11 +1,11 @@
-import { <%= packageName %> } from '<%= packageName %>';
+import { <%= name %> } from '<%= packageName %>';
 import React from 'react';
 
 export default () => {
 
   return (
     <>
-      <<%= packageName %> />
+      <<%= name %> />
     </>
   );
 };
